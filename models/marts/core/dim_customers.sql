@@ -19,6 +19,7 @@ customer_payments as (
 final as (
 
     select
+        0 as nothing,
         customers.customer_id,
         customer_orders.first_order,
         customer_orders.most_recent_order,
